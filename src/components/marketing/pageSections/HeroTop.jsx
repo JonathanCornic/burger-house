@@ -1,5 +1,7 @@
 import Container from '../../elements/Container'
 import Illustration from '../../../media/images/background/bg-food.jpg'
+import Header from './Header'
+
 
 export default function HeroTop() {
     return (
@@ -8,7 +10,9 @@ export default function HeroTop() {
                 className="bg-repeat w-full h-full"
                 style={{ backgroundImage: `url(${Illustration})` }}
             >
-                <Container />
+                <Container>
+                    <Header/>
+                </Container>
             </div>
         </div>
     )
