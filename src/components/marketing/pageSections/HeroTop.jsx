@@ -1,7 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 import Container from '../../elements/Container'
 import Illustration from '../../../media/images/background/bg-food.jpg'
 import Header from './Header'
-
+import Product from '../../../media/images/heroTop/burger-hero-top.png'
 
 export default function HeroTop() {
     return (
@@ -11,7 +12,29 @@ export default function HeroTop() {
                 style={{ backgroundImage: `url(${Illustration})` }}
             >
                 <Container>
-                    <Header/>
+                    <Header />
+                    <div className="relative mt-28 w-full">
+                        <img
+                            src={Product}
+                            className="absolute z-0 -top-64 right-0 w-6/12"
+                            alt="Un menu hamberger avec frite et coca cola"
+                        />
+                        <div className="relative z-1 text-secondary uppercase">
+                            <h1 className="mb-4 font-semibold">
+                                C'est le moment de gouter au bon goût des
+                                hambergers
+                            </h1>
+                            <h2 className="font-secondary">
+                                <span className="text-8xl block">Burger</span>
+                                <span className="text-6xl">House</span>
+                                <span className="text-4xl ml-3">
+                                    Click
+                                    <span className="text-tertiary">&</span>
+                                    collect
+                                </span>
+                            </h2>
+                        </div>
+                    </div>
                 </Container>
             </div>
         </div>
