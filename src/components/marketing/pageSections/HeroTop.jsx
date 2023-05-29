@@ -3,6 +3,7 @@ import Container from '../../elements/Container'
 import Illustration from '../../../media/images/background/bg-food.jpg'
 import Header from './Header'
 import Product from '../../../media/images/heroTop/burger-hero-top.png'
+import Button from '../../elements/Button'
 
 export default function HeroTop() {
     return (
@@ -35,6 +36,9 @@ export default function HeroTop() {
                             </h2>
                         </div>
                     </div>
+                    <Button className="mt-5" color="secondary" theme="big">
+                        Créer mon compte
+                    </Button>
                 </Container>
             </div>
         </div>
