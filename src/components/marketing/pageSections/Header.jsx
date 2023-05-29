@@ -11,11 +11,11 @@ export default function Header() {
             <div className="w-full text-secondary ">
                 <div className="flex items-center justify-end">
                     <img src={Icone} alt="" className="w-5 h-5 mr-1" />
-                    <span>Commendez votre repas en ligne</span>
+                    <span className='text-lg font-medium'>Commendez votre repas en ligne</span>
                 </div>
 
                 <div className=" mt-5 flex items-center justify-end">
-                    <Button className="tracking-widest mr-4">
+                    <Button className="tracking-widest mr-3">
                         Inscription
                     </Button>
                     <Button className="tracking-widest" color="secondary">
