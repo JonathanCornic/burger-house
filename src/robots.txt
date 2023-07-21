@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://burger-house.pages.dev/sitemap.xml
