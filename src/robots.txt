@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /downloads/
 
-Sitemap: https://burger-house.pages.dev/sitemap.xml
+Sitemap: https://burger-house.pages.dev/sitemap-file.xml
