@@ -21,7 +21,7 @@ export default function Header() {
                 </div>
 
                 <div className=" mt-5 flex items-center justify-center md:justify-end">
-                    <Button className="tracking-widest mr-3 text-sm md:text-base">
+                    <Button className="tracking-widest mr-3 text-sm md:text-base" color='tertiary'>
                         Inscription
                     </Button>
                     <Button

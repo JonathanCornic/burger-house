@@ -6,12 +6,12 @@ import Button from '../elements/Button'
 
 export default function HeroTop() {
     return (
-        <div className="bg-primary w-full">
+        <section className="heroSection bg-primary w-full">
             <div
                 className="bg-repeat w-full h-full pb-16 md:pb-24 lg:pb-40"
                 style={{ backgroundImage: `url(${Illustration})` }}
             >
-                <Container>
+                <Container structure={'div'}>
                     <Header />
                     <div className="relative w-full mt-6 lg:mt-32">
                         <img
@@ -63,6 +63,6 @@ export default function HeroTop() {
                     </div>
                 </Container>
             </div>
-        </div>
+        </section>
     )
 }

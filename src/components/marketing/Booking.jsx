@@ -5,7 +5,7 @@ import Image2 from '../../medias/images/background/sauce-pimente.webp'
 import Image3 from '../../medias/images/background/assiette-burger-frites.webp'
 export default function Booking() {
     return (
-        <Container>
+        <Container structure={'section'} className={'bookingSection'}>
             <div className="relative md:mb-20">
                 <img
                     src={Image1}

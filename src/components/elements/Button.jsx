@@ -7,6 +7,9 @@ export default function Button({ children, className, color, theme }) {
         case 'secondary':
             background = 'bg-secondary hover:bg-secondary-hover'
             break
+        case 'special':
+            background = 'bg-special hover:bg-special-hover'
+            break
         default:
             background = 'bg-primary hover:bg-primary-hover'
     }

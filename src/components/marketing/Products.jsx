@@ -10,7 +10,7 @@ import Product3 from '../../medias/images/products/boston.webp'
 export default function Products() {
     return (
         <>
-            <Container>
+            <Container structure={'section'} className={'infoProductSection'}>
                 <HeadingTitle>Toujours des délicieux burgers</HeadingTitle>
                 <Heading
                     theme="secondary"
@@ -28,7 +28,7 @@ export default function Products() {
                     ancestrale. Succombez à ces plaisirs culinaires uniques !
                 </p>
             </Container>
-            <ContainerFull>
+            <ContainerFull className={'productsSection'}>
                 <div className="grid gap-x-1 gap-y-5 my-10 lg:grid-cols-3 lg:px-0 lg:gap-y-0">
                     <div>
                         <div className="relative m-auto w-72 h-72 md:w-100 md:h-100 lg:w-full lg:h-96">

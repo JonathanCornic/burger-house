@@ -1,6 +1,6 @@
-import Container from "../elements/Container"
-import Heading from "../elements/displayTitles/Heading"
-import AliceCarousel from "react-alice-carousel"
+import Container from '../elements/Container'
+import Heading from '../elements/displayTitles/Heading'
+import AliceCarousel from 'react-alice-carousel'
 import '../../css/carousel.css'
 import EventImage1 from '../../medias/images/events/14-juillet.webp'
 import EventImage2 from '../../medias/images/events/world-cup.webp'
@@ -75,7 +75,7 @@ export default function Event() {
     ]
 
     return (
-        <Container>
+        <Container structure={'section'} className={'eventsSection'}>
             <div className="shadow-2xl lg:mb-12 lg:mt-20">
                 <AliceCarousel
                     mouseTracking

@@ -9,7 +9,7 @@ import TwitterLogo from '../../medias/svg/twitter.svg'
 import WhatsappLogo from '../../medias/svg/whatsapp.svg'
 export default function Footer() {
     return (
-        <Container>
+        <Container structure={'section'} className={'footerSection'}>
             <div className="relative lg:mb-14">
                 <img
                     src={Background}
