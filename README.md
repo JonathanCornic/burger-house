@@ -47,6 +47,6 @@ la formation ne couvre pas toute l'integration certe mais est largement suffisan
 
 ## Comment me contacter
 
-Si vous avez des questions, des commentaires ou des propositions de collaboration, n'hésitez pas à me contacter par e-mail à cornicjonathan@gmail.com ou via mon profil LinkedIn à https://www.linkedin.com/in/jonathan-cornic-024607262/.
+Si vous avez des questions, des commentaires ou des propositions de collaboration, n'hésitez pas à me contacter par [Mail](mailto:cornicjonathan@gmail.com) ou via mon profil [LinkedIn](https://www.linkedin.com/in/jonathan-cornic-024607262/).
 
 Je suis fier d'avoir pu réaliser ce projet qui m'à permis de consolider mon experience sur l'architecture d'un projet react ainsi que sur tailwindcss que j'ai decouvert à travers lui et suis heureux de partager cette expérience avec vous.
